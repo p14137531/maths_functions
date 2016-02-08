@@ -9,6 +9,6 @@ int main()
 	printf("%i - %i = %i\n",a,b,a-b);
 	printf("%i * %i = %i\n",a,b,a*b);
 	printf("%i / %i = %i\n",a,b,a/b);
-	printf("Remainder of %i and %i = %d\n",a,b,a%d);
+	printf("Remainder of %i and %i = %d\n",a,b,a%b);
 	return 0;
 }
