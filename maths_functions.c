@@ -1,3 +1,4 @@
+//This is the line causing issue in the master branch
 #include <stdio.h>
 
 int main()
@@ -9,10 +10,6 @@ int main()
 	printf("%i - %i = %i\n",a,b,a-b);
 	printf("%i * %i = %i\n",a,b,a*b);
 	printf("%i / %i = %i\n",a,b,a/b);
-<<<<<<< HEAD
-	printf("Remainder of %i and %i = %d\n",a,b,a%b);
-=======
 	printf("Remainder of %i and %i = %d\n",a,b,a%d);
->>>>>>> testing
 	return 0;
 }
